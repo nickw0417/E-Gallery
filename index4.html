@@ -1,9 +1,70 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Press</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Press</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("assets/web_art.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    text-align: center;
+    padding: 20px;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 5px;
+    background-color: rgba(0,0,0,1);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    background-color: #333;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 20px auto 50px auto;
+    padding: 30px;
+    background-color: rgba(0,0,0,1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+</style>
 </head>
+
 <body>
-  <h1>Welcome!</h1>
-  <p>This is a basic HTML starter page.</p>
+
+<div class="nav">
+    <a href="index.html">Home</a>
+    <a href="index2.html">About</a>
+    <a href="index4.html">Press</a>
+</div>
+
+<div class="content-container">
+    <img src="assets/presspage.jpg" alt="Press Page" class="featured-image">
+</div>
+
 </body>
 </html>
